@@ -25,7 +25,7 @@ div.links {
 }
 
 nav.menu-lateral {
-  width: 9%;
+  width: 11vh;
   height: 100vh;
   background-color: grey;
   padding: 5% 0 5% 1%;
@@ -39,8 +39,19 @@ nav.menu-lateral {
   transition: .2s;
 }
 
+.btn-expandir {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.btn-expandir > i {
+  color: whitesmoke;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
 nav.menu-lateral:hover {
-  width: 25%;
+  width: 30vh;
 }
 
 ul {
