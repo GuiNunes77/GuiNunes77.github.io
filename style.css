@@ -14,15 +14,29 @@ body {
 
 .container {
   color: whitesmoke;
-  padding: 200px;
-  width: 100vh;
+  padding: 150px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-div.links {
-  padding: 50px;
+.container > h1 {
+  font-size: 6em;
 }
+
+.links {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.links > h3 {
+  margin: 20px;
+}
+
+.links a {
+  margin: 0 10px;
+}
+
 
 nav.menu-lateral {
   width: 11vh;
@@ -112,4 +126,40 @@ ul li.item-menu a .icon > i {
   margin-top: 60px;
   text-align: right;
   font-size: 1.1em;
+}
+
+.project-container {
+  color: whitesmoke;
+  padding-left: 150px;
+  padding-top: 150px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+dt{
+  padding: 10px;
+  text-align: center;
+}
+
+dd {
+  text-align: center;
+}
+
+.project1 > i {
+  font-size: 6em;
+  padding-left: 130px;
+}
+
+.project2 > i {
+  font-size: 6em;
+  padding-left: 130px;
+}
+
+.project3 > i {
+  font-size: 6em;
+  padding-left: 130px;
 }
