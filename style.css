@@ -85,3 +85,31 @@ ul li.item-menu a .txt-link {
 ul li.item-menu a .icon > i {
   font-size: 1.5em;
 }
+
+.about-container {
+  color: whitesmoke;
+  padding-left: 150px;
+  padding-top: 150px;
+  display: flex;
+}
+
+.about-highlight > img {
+  position: absolute;
+  left: 900px;
+}
+
+.about-highlight > h1 {
+  font-size: 8em;
+}
+
+.about-highlight > h2 {
+  margin-left: 150px;
+  font-size: 4em;
+}
+
+.about-info {
+  position: absolute;
+  margin-top: 60px;
+  text-align: right;
+  font-size: 1.1em;
+}
